@@ -1,3 +1,23 @@
 body {
   font-family: 'Bodoni Moda', serif;
 }
+
+.profile-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-hover .normal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile-hover:hover .pixelated {
+  display: none;
+}
+
+.profile-hover:hover .normal {
+  display: block;
+}
